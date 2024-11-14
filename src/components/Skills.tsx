@@ -36,7 +36,7 @@ const responsive = {
 export const Skills = () => {
   return (
     <section className="Skills">
-        <img src={colorSharp} id="colorSharp"></img>
+        <img src={colorSharp} id="colorSharp" alt="Gradient Background"></img>
         <Container>
             <Col xs={12} md={6} xl={5} id="skills">
             <h1 id="skillHeader">Skills</h1>

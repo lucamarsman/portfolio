@@ -7,7 +7,7 @@ import project2 from '../assets/img/project2.png';
 export const Projects = () => {
   return (
     <section className="Projects">
-        <img src={colorSharp2} id="colorSharp2"></img>
+        <img src={colorSharp2} id="colorSharp2" alt="Gradient Background"></img>
         <Container>
             <Col xs={12} md={6} xl={5} id="projects"> 
             <h1 id="projectsHeader">Projects</h1>

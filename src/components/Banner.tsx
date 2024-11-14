@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import spaceman from '../assets/img/spaceman.png';
 
