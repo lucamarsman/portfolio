@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import React from "react";
 import Carousel from "react-multi-carousel";
@@ -42,15 +41,15 @@ export const Skills = () => {
             <Col xs={12} md={6} xl={5} id="skills">
             <h1 id="skillHeader">Skills</h1>
             <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000}>
-                <img src ={jsLogo} className="skillLogo"/>
-                <img src ={mySqlLogo} className="skillLogo"/>
-                <img src ={nodeJsLogo} className="skillLogo"/>
-                <img src ={reactLogo} className="skillLogo"/>
-                <img src ={aspLogo} className="skillLogo"/>
-                <img src ={javaLogo} className="skillLogo"/>
-                <img src ={cppLogo} className="skillLogo"/>
-                <img src ={csLogo} className="skillLogo"/>
-                <img src ={azureLogo} className="skillLogo"/>
+                <img src ={jsLogo} className="skillLogo" alt="JavaScript Logo"/>
+                <img src ={mySqlLogo} className="skillLogo" alt="MySQL Logo"/>
+                <img src ={nodeJsLogo} className="skillLogo" alt="NodeJS Logo"/>
+                <img src ={reactLogo} className="skillLogo" alt="React Logo"/>
+                <img src ={aspLogo} className="skillLogo" alt="ASP .NET Logo"/>
+                <img src ={javaLogo} className="skillLogo" alt="Java Logo"/>
+                <img src ={cppLogo} className="skillLogo" alt="C++ Logo"/>
+                <img src ={csLogo} className="skillLogo" alt="C# Logo"/>
+                <img src ={azureLogo} className="skillLogo" alt="Azure Logo"/>
             </Carousel>
             </Col>
         </Container>

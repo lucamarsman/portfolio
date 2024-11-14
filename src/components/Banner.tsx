@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import {useState } from 'react';
 import spaceman from '../assets/img/spaceman.png';
 
 export const Banner = () => {
@@ -28,7 +27,7 @@ export const Banner = () => {
               <p>A computer science student passionate about full-stack web development.</p>
         </Col>
         <Col xs={12} md={6} xl={5} id="banner-img">
-            <img src={spaceman}/>
+            <img src={spaceman} alt="Floating spaceman"/>
         </Col>
       </Row>
     </section>

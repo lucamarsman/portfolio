@@ -11,8 +11,8 @@ export const Footer = () => {
           <Col size={12} sm={6} className="text-center text-sm-end" id="footer-content">
             <p>Copyright 2024. All Rights Reserved</p>
             <div className="social-icon-footer">
-              <a href="#"><img src={githubIcon} alt="Icon" /></a>
-              <a href="#"><img src={linkedInIcon} alt="Icon" /></a>
+              <a href="https://github.com/lucamarsman"><img src={githubIcon} alt="GitHub Icon" /></a>
+              <a href="https://www.linkedin.com/in/luca-marsman-67b2bb1a6/?originalSubdomain=ca"><img src={linkedInIcon} alt="LinkedIn Icon" /></a>
             </div>
           </Col>
         </Row>
